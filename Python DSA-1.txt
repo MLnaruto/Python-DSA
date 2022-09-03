@@ -1,0 +1,118 @@
+1. “HARD WORK IS WORTHLESS FOR THOSE THAT DON’T BELIEVE IN THEMSELVES.” – NARUTO UZUMAKI
+
+1. Need of DSA
+2. Algorithm: a step by step process to solve a problem
+3. Data structures
+4. Data types
+    .Basic
+    .complex
+
+    .Basic Data type:
+     --> Numeric: int, float, complex --> 10, 9.56, 3+2j
+     --> Boolean
+     --> sequence: string,range,list,tuple
+
+
+wer are given some problem ( a maths problem)
+- understand the logic 
+- convert this logic to code
+- give this code to the system
+- the code will get processed
+- we get the output
+
+
+algorithm need to be converted to systems language
+
+variable , x = 9 
+print(x)
+output : 9
+if you want the algorithm to be working very efficiently, then the data should be in a structured
+format, 
+
+python, java, etc
+
+x = 10 ---> integer 
+a = 2.56 ---> float
+c = "Ram" --> string (a collection of characters) 'Ram' or "Ram"
+d = 2+3j --> integer + imaginary number --- "complex"
+
+
+bank balance = 200000
+temperature = -10c extreme cold
+temp = 50c extreme hot
+temp = 0c neutral in position 
+
+
+sequence data type: order 1,2,3,4,5 etc 8,7,6,5,4, etc
+1. used to store multiple values in a single variable in an organized and efficient way.
+2. ex: strings, range, list, tuple
+
+
+string:
+1. a sequence of characters represented in a single or double quotes
+   Ex: "ML Naruto" or 'ML Naruto'
+
+2. + operator: it concatenates two or more strings together by joining them. Team India
+3. * operator: it is a representation of multiplication 
+4. it's immutable means ( we can't change the value") Team seam
+
+
+Range:
+1. a sequence of numbers
+2. used in for, while loops
+3. it's immutable in nature
+4. syntax: range(start,stop,step)
+    start --> to start anything
+    stop --> to prevent anything (it's exclusive that means it wont be including in our output)
+    step --> the difference between the start and the stop
+
+2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22
+
+2,4,6,8,10,12,14,16,18,20
+
+20,19,18,17,16,15,14,13,12,11,10
+20,18,16,14,12
+
+
+Lists:
+1. used to store multiple items in a single variable
+2. duplicate values are allowed inside a list
+3. we can have different types of data inside the list
+4. it's muttable in nature
+5. ordered 
+6. dynamic
+7. can use some operators with lists --> in, not in, +, *
+8. can use len(),min(),max()
+
+'Naruto' is the string
+25 is the int
+500000 is the int
+6.2 is the float
+'Naruto',25,50000,6.2
+0        1   2     3
+
+1,5,6,9,8,3,200
+0,1,2,3,4,5,6
+list1[1:6]
+
+Tuple:
+1. used to store multiple items in a single variable
+2. data is ordered
+3. it's immutable 
+4. duplicate values are allowed
+5. tuples are the replacement for the lists if we wish to store the data that should not be
+   changed.
+6. we can use some operators with tuples --> +,*, membership, iteration 
+7. can use few built in functions with tuples --> len(), min(), max(), etc
+8. we can also use tuples in for loop.
+syntax: (1,2,"Naruto",56)
+
+
+next video:
+operators:
+1. Membership 
+2. identity
+3. logical 
+
+
+
