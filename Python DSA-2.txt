@@ -1,0 +1,128 @@
+“People who continue to put their lives on the line to defend their 
+faith become heroes and continue to exist in legend.” – Naruto
+
+Operators:
+1.Membership operators : in, not in
+2.Identity operators  : is, is not
+3.Logical operators : AND, OR, NOT
+4.Equality operator: ==
+
+Datatypes:
+1. complex : dict, sets, frozenset
+
+
+
+
+1.Membership operators:
+python. int, float, bool, sequence(list,tuple,range,string)
+1 group (singles): 
+   condition : this is only for singles no committed people are allowed.
+   test: 
+
+1. we want to check whether a number or something belongs to a specific group or not
+2. in and not in
+
+
+(2,4,6,8,10 ) ---> even numbers
+
+
+1,9,8,6,2,3
+1= odd number -- rejected
+9 = odd number -- rejected
+8 = even number -- allowed
+
+Identity operators:
+  
+1. just comparing the objects
+2. is , is not 
+3. we just want to know whether the two variables are actually refering to the same object or not.
+4. == equality operator
+
+ex: 1. 2 babies are twins with the names Ram, Bheem
+       == operator is nothing but comparing all the physical characteristics of the twins (ram, bheem)
+        whether ram has the same face as of bheem or not ? --> == equality operator
+        whether ram has the same apple watch as of bheem or not ? --> == equality operator
+
+       ram is not bheem.
+       ram is a person
+       bheem is another person.
+
+
+
+Logical operators:
+1. they are used to combine multiple conditions. 
+2. AND, OR, NOT
+
+
+ex:  aptitude test ------------- stage 1
+     technical round ------------ stage 2
+     
+
+     hr round -------------------- final stage
+  
+     AND operator (logical operator)
+
+
+     
+     exhibition: he just paid some 50 rupees at the counter, then he was given 2 balls.  now the goal is to throw these 2 balls 
+                 on some times one after the other. 
+                 output: he will only win, if he throws either of the 2 balls on a particular item 
+
+
+complex data type:
+1. Dictionaries:
+   --> it's a collection of different data types that is stored in a single variable.
+   --> it's a combination of key and value pairs
+   --> the keys must be immutable, and hashable but the value(data) is mutable 
+   --> the data is stored in unordered way
+   --> it is used to map the data or to trace out the data with the help of the keys.
+   --> here keys are case sensitive, and the keys should be unique in nature, they can't be duplicated
+
+   a= { '1': 'Name',
+        '2': 'Age',
+        '3': 'Salary'}
+
+here '1' ----> key
+     'Name' -----> value
+
+2. set:
+   ---> collection of different data types
+   --->  the data is unordered
+   ---> it's mutable, unhashable
+   ---> it doesn't have any duplicated values inside it 
+   ---> we can use set with some operators, and with some built in functions 
+        ex: in, not in, len(), max(), min(), etc
+   ---> a set() returns a set object from an iterable
+
+
+3. Immutable sets or frozen sets:
+    ---> it's immutable (can't change once it's assigned)
+    ---> it has data in unordered way
+    ---> we use frozenset when we want to use a set, but we also need the immutable object
+
+a = {'java', python, rbu, scala}
+print(a)
+output: rbu, scala, java, python
+
+
+python modules
+1.namedtuple
+2.defaultdict
+3.chainmap
+4.deque
+5.counter
+6.userdict userlist
+7.userstring
+
+
+
+
+
+
+
+
+
+
+
+
+
